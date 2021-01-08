@@ -171,6 +171,7 @@ flex-wrap: wrap;
 }
 
 .foot >*{
+    width: ;
     line-height: 40px;
     font-size: 20px;
     letter-spacing: 0.2px;
@@ -236,8 +237,9 @@ flex-wrap: wrap;
             padding: 5px; 
         }  
         .footerr{
+            width: 99.9%;
             margin-top: 10px;
-            height: 440px;
+            height: 480px;
         }
         .foot >*{
             margin-bottom: 5px;
