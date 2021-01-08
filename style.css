@@ -1,0 +1,248 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container-xl{
+    background-color: transparent;
+}
+
+
+.btn{
+    border-radius: 25px;
+    width: 150px;    
+}
+
+.knopka{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    
+}
+.container-fluid {
+    width: 100%;
+    height: 1280px;
+  background: linear-gradient(230.95deg, #cb1ae8 -0.37%, #37bda6 100%);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+
+.navn{
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+.navn>*{
+    color: white;
+}
+
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.textr{
+    font-size: 55px;
+}
+
+.figmat{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 80px;
+    font-weight: 600;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    border-radius: 5px;
+    
+    
+}
+
+
+.cart{
+display: flex;
+
+flex-wrap: wrap;
+}
+
+.cart > div{
+
+    padding: 40px;
+    margin: 10px;
+    width: 401px;
+    height: 440px;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 0px 4px 31px lightgray;
+    border: rgb(187, 176, 176) 1px solid;
+}
+
+.cart > div >a{
+    text-decoration: none;
+    
+}
+
+.cart1 >a{
+    color: #03D6F3;
+}
+.cart2{
+    background: linear-gradient(230.95deg, #CB1AE8 -0.37%, #37BDA6 100%);
+}
+
+.cart3 >a{
+    color: #03D6F3;
+}
+
+.textc{
+    font-size: 46px;
+}
+
+.content1{
+    margin-top: 80px;
+    align-items: center;
+}
+
+.educ{
+   width: 335px;
+   height: 1000px;
+   margin-top: 10px;
+   border-radius: 10px;
+   padding: 40px; 
+   margin: 15px;
+   text-align: center;
+   border: 1px solid lightgray;
+}
+
+.texta{
+    font-size: 30px;
+    
+    font-weight: 700;
+}
+
+.amgg{
+    margin-top: 25px;
+}
+
+.heighttext{
+    line-height: 40px;
+}
+
+.content2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.content3{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.content3 > * {
+    margin: 10px;
+}
+
+.emailin{
+    padding: 62px, 199px, 62px, 199px;
+}
+
+.footerr{
+    display: flex;
+    
+    height: 371px;
+    width: 99.9vw;
+    background-color: #112D57;
+}
+
+.footerr>div>*{
+    color: white;
+}
+
+.foot >*{
+    line-height: 40px;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+}
+
+@media(max-width:966px){
+    .imga{
+        margin-top: 10px;
+    }
+  .rasm{
+      
+      width: 95vh;
+      width: 95vw;
+      
+  }
+    .cart{
+        margin-top: 10px;
+        justify-content: center;
+    }
+    .cart > div{
+        width: 300px;
+        height: 350px;
+    }
+
+    .content3{
+        text-align: center;
+    }
+    .content3 > * {
+        width: 80vw;
+        width: 80vh;
+        border-radius: 1px;
+    padding:16px, 48px, 16px, 48px;
+}
+
+.emailin{
+    padding: 5px;
+    border: 1px solid rgb(233, 226, 226);
+}
+    .text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 80px;
+        color: white;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .textr{
+        font-size: 30px;
+        font-weight: 800;
+    }
+    .container-fluid {
+        height: 900px;
+        border: none;}
+        .figmat{
+            margin: 20px;
+        }
+        .amgg{
+            margin-top: 5px;
+        } 
+        .educ{margin-top: 5px;
+            padding: 5px; 
+        }  
+        .footerr{
+            margin-top: 10px;
+            height: 440px;
+        }
+        .foot >*{
+            margin-bottom: 5px;
+            line-height: 40px;
+            font-size: 15px;
+            letter-spacing: 0.2px;
+            
+}
